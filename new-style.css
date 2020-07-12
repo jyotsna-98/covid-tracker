@@ -1,0 +1,93 @@
+body {
+  background-color: #f5f6fa;
+}
+.main {
+  height: 100vh;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+}
+.stats-container {
+  height: 80px;
+}
+.map-container {
+  height: 500px;
+}
+#map {
+  border-radius: 12px;
+  overflow: hidden;
+}
+.chart-container .col {
+  background-color: #eff2f6;
+  border-radius: 12px;
+}
+.chart-container {
+  margin-left: 0;
+  margin-right: 0;
+}
+.linear-chart {
+  height: 100%;
+}
+.title-container h2 {
+  color: #fc3c3c;
+  margin-bottom: 0;
+}
+.stats-container .card-title {
+  color: #695d5c;
+  font-weight: 400;
+}
+.stats-container .card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0px 0px 8px -4px rgba(0, 0, 0, 0.5);
+}
+.stats-container .card:hover {
+}
+.stats-container .card-body {
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.side-panel-container {
+  background-color: white;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  box-shadow: 0px 0px 8px -4px rgba(0, 0, 0, 0.5);
+  padding-top: 15px;
+}
+.total-number {
+  color: #cc1034;
+}
+.stats-container .total {
+  font-size: 0.8rem;
+}
+.recovered-number {
+  color: #7fd922;
+}
+.deaths-number {
+  color: #fa5575;
+}
+.country-data {
+  height: 400px;
+
+  overflow-y: scroll;
+}
+.country-data thead th {
+  position: sticky;
+  top: 0;
+}
+.header-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.cases-table-container h4,
+.chart-container h4 {
+  text-align: center;
+  color: #6a5d5d;
+  font-weight: 400;
+}
+.country-data .table td {
+  padding: 0.5rem;
+  border: none;
+}
